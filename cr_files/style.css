@@ -1,0 +1,232 @@
+#how-map{
+    width: 100%;
+    height: 440px;
+    z-index: 1;
+}
+  
+  
+.ip-aside{
+ width: 205px;
+ position: relative; 
+ z-index: 11;
+}
+
+@media screen and (max-width: 1001px) {
+    .ip-aside{
+        width: 100%;
+    }
+}
+
+.ip-search{
+    width: 195px;
+    margin: 7px 0 0 -6px;
+}
+
+.ip-right-menu{margin: 66px 0 0;}
+
+@media only screen and (min-width:767px)  and (max-width:1001px), only screen and (max-width:768px){ 
+    .ip-right-menu {display: none;}
+    .ipa-content{
+        /* margin-top: -46px; */
+        display: block;
+      }
+    .ip-aside{display: block;}
+    .ipa-header .download-link-block{margin: 72px 7px 10px 0;} 
+
+    .ip-search{
+    position: relative;
+    top: -9px;
+}
+ 
+}
+
+.bx-core-waitwindow{
+  position: absolute;
+  z-index: 1000;
+  background: rgba(255, 255, 255, .7) url("../img/preloader_white.gif") no-repeat center center;
+  min-height: 740px;
+  min-width: 450px;
+  border: 0px;
+  margin: -14px 14px;
+}
+
+.ymap-display-left {
+  white-space: nowrap;
+  width: 120px;
+  left: -131px;
+  text-align: right;
+}
+
+.timetable-link {
+  padding-top: 5px !important;
+  font-size: 12px;
+}
+
+
+.doc-flip-header > span {
+    border-bottom: 1px dashed #034a94;
+    color: #034a94;
+    padding: 0 3px 0 0 ;
+}
+
+.doc-flip-header:hover > span{
+    color: #19acf2;
+    border-bottom: 1px dashed #19acf2;
+}
+
+.doc-flip-header.open > span {
+    color: #eb7501;
+    border-bottom-color: #eb7501;
+}
+
+.dd-header.doc-flip-header:hover:after{
+    border-top: 4px solid #19acf2;
+}
+
+.doc-flip-header.open:hover:after{
+    border-bottom: 4px solid #eb7501;
+    border-top: none;
+}
+
+.doc-flip-header.open:after{
+    border-bottom: 4px solid #eb7501;
+    border-top: none;
+    top: 5px;
+}
+
+.aside-slider_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 30px 0 0 0;
+}
+
+.aside-slider_container {
+    max-height: 137px;
+    height: 137px;
+}
+
+.aside-slider_container.tight {
+    max-height: 332px;
+    height: 332px;
+}
+
+.aside-slider_container.tight .flexslider {
+    max-height: 332px;
+    height: 332px;
+}
+
+@media screen and (max-width: 1001px) {
+    .aside-slider_container {
+        max-height: 213px;
+        height: 213px;
+        margin-bottom: 30px;
+    }
+    
+    .aside-slider_container.tight {
+        max-height: 360px;
+        height: 360px;
+    }
+    
+    .aside-slider_container.tight .flexslider {
+        max-height: 360px;
+        height: 360px;
+    }
+}
+
+.aside-slider_container .flexslider {
+    margin: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.aside-slider_container.no_arrows .custom-navigation > a {
+    display: none;
+}
+
+.aside-slider_container.no_navBar .custom-navigation .custom-controls-container  {
+    display: none;
+}
+
+.aside-slider_container .flexslider .slides, .aside-slider_container .flex-viewport, .aside-slider_container .flexslider .slides li {
+    height: 100%;
+}
+
+.aside-slider_container .flexslider .slides img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.aside-slider_container .custom-navigation > a {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px; 
+    background: rgb(126 120 120 / 50%);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    border: none;
+}
+.aside-slider_container .custom-navigation > a.flex-prev {
+    left: 4px;
+}
+
+.aside-slider_container .custom-navigation > a.flex-next {
+    right: 4px;
+}
+
+.aside-slider_container .flex-control-nav {
+    margin: 0;
+    display: flex;
+    gap: 2px;
+    padding: 0 !important;
+
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aside-slider_container .flex-control-nav li {
+    margin: 0;
+    height: 2px;
+    display: flex;
+}
+
+.aside-slider_container .custom-controls-container ol > li:before {
+    display: none;
+}
+
+.aside-slider_container .flex-control-paging li a {
+    width: 20px;
+    height: 2px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 17px;
+}
+
+.aside-slider_container .flex-control-paging li a.flex-active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1001px) {
+    .cf.reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }   
+    .cf.reverse .aside-slider_container {
+        margin-bottom: 0;
+    }
+    .cf.reverse .ip-search {
+        margin: 18px 20px 0 0;
+        top: 0;
+    }
+}

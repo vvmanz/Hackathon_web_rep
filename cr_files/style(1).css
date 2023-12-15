@@ -1,0 +1,562 @@
+.site-logo{
+  width: 160px;
+}
+
+.eng-version .site-logo{
+       width: 314px;
+       height: 72px;
+}
+
+.site-header{
+	padding: 10px 0 10px;
+}
+
+.header-menu{
+	top: 40px;
+}
+
+.flex-control-nav .flex-active{
+	background: #f78e1e !important;
+}
+
+.used-sprite, .us-before:before, i, .submenu-item:before, .submenu-item > span:before{
+	background: url("/_img/mainSprite.png") -500px 0 no-repeat;
+}
+
+.ih-status-boarding{color: #83c47b;}
+
+
+/* ---------------------------------------- Main Page Big Banners ---------------------------------------- */
+.mp-bigBanners-item {
+  overflow: hidden;
+  margin: 0 -10px 20px 0;
+  height: 118px;
+  width: 936px;
+}
+.mp-bigBanners-item a {
+  display: block;
+  height: 100%;
+}
+.mp-bigBanners-item img {
+  height: auto;
+  max-width: 100%;
+}
+.mp-bigBanners-item + .mp-bigBanners-item {/*margin-top: 20px;*/}
+
+@media only screen and (max-width: 1001px) and (min-width: 767px), only screen and (max-width: 768px) {
+    .mp-bigBanners-item {
+	  width: 620px;
+      /*margin-top: -143px;*/
+      /*padding-left: 20px;*/
+      /*box-sizing: border-box;*/
+    }
+}
+
+.soc-link .intstagram{
+	background-position: -460px -50px;
+}
+
+.soc-link .vkontakt {
+  width: 19px;
+  height: 19px;
+  background-position: -370px -200px;
+}
+
+.soc-link .livejournal {
+  width: 18px;
+  height: 21px;
+  background-position: -400px -200px;
+}
+
+.soc-link .ok {
+  width: 19px;
+  height: 19px;
+  background-position: -421px -200px;
+}
+
+.soc-link .facebook {
+  width: 19px;
+  height: 19px;
+  background-position: -421px -222px;
+}
+
+/*parking tomsk*/
+.parking{
+  padding-top: 1px;
+}
+.parking-map{  
+  margin: 8px -207px 0 -45px;
+  height: 812px;
+}
+.parking-image{
+  background: url(/_img/parking3.png) 0 0 no-repeat;
+  height: 812px;
+}
+.parking-roads{
+  background: url(/_img/parking.png) 0 -1256px no-repeat;
+  top: 109px;
+  left: 52px;
+  width: 960px;
+  height: 704px;
+}
+.parking-overlays div{
+  background: url(/_img/parking3.png) 0 0 no-repeat;
+}
+.parking-overlays .po-p1 {
+  width: 344px;
+  height: 242px;
+  background-position: 0 -850px;
+  top: 260px;
+  left: 174px;
+}
+.parking-overlays .po-p2 {
+  width: 320px;
+  height: 228px;
+  background-position: -672px -1007px;
+  top: 400px;
+  left: 458px;
+}
+.parking-overlays .po-p3 {
+  width: 282px;
+  height: 256px;
+  background-position: -360px -850px;
+  top: 527px;
+  left: 608px;
+}
+.parking-objects div{
+  background: url(/_img/parking.png) 0 0 no-repeat;
+  width: 47px;
+  height: 47px;
+}
+.parking-objects.po-aps div{
+  background-position: -900px -850px;
+}
+.parking-objects.po-buses div{
+  background-position: -900px -900px;
+}
+.eng-version .parking-image, 
+.eng-version .parking-roads, 
+.eng-version .parking-overlays div{
+  background-image: url(/_img/enparking.png);
+}
+.po-buses div{
+  opacity: 1;
+}
+
+.under-table-links-wrap {
+  margin-bottom: 30px;
+}
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 3/2),only screen and (min-device-pixel-ratio: 1.5){
+
+  .used-sprite, 
+  .us-before:before, 
+  i, 
+  .submenu-item:before,
+  .submenu-item > span:before
+   {
+    background: url("../_img/retinaSprite.png") no-repeat -500px 0;
+    background-size: 500px 500px;
+  }
+
+  .soc-link .vkontakt {
+    background-position: -370px -200px;
+  }
+
+  .soc-link .livejournal {
+    background-position: -400px -200px;
+  }
+}
+
+.footer-banner {margin: 0 15px 0 -1px;}
+
+.footer-banner:nth-of-type(3) {  margin: 0 0 0 -1px;}
+
+.menu-map-icon {
+  background: url("../_img/minimap_color.jpg") 0 0 no-repeat;
+  width: 230px;
+}
+
+.top-contact {
+  width: 100%;
+  display: table;
+}
+
+.top-contact-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inter-map {
+  float: right;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1001px) and (min-width: 767px), only screen and (max-width: 768px) {
+  .mp-main-news {margin: -250px 0 0;}
+  .mp-bigBanners-item {margin: 20px -10px 0 0;}
+}
+
+.mp-poll-wrap {box-sizing: border-box;}
+
+
+/* =================================== Страница авиакасс ======================================== */
+body .bilet-page {font-family: "Open Sans",sans-serif !important;}
+
+.bilet-page a {color: #034a94}
+
+.bilet-page a:hover {color: #eb7501}
+
+.bilet-page .topbar a, .bilet-page a.slide-inner-link:hover {color: #fff;}
+
+.bilet-page .header-wrap {z-index: 50;}
+
+.bilet-page .site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px;
+}
+
+
+
+.bilet-page .site-phone-number {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.bilet-page .site-phone-info {
+  display: flex;
+  align-items: center;
+  color: #8892a5;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bilet-page .show-phones {
+  margin-left: 5px;
+}
+
+.bilet-page .show-phones-btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  padding: 5px;
+  z-index: 20;
+  position: relative;
+  border-radius: 3px 3px 0 0;
+}
+
+.bilet-page .show-phones-btn span {
+  border-bottom: 1px dashed #034a94;
+  color: #034a94;
+  display: inline-block;
+  font-size: 15px;
+  user-select: none;
+  cursor: pointer;
+  line-height: 15px;
+}
+
+.bilet-page .show-phones-btn.open {
+  border: 1px solid #dadde0;
+  border-bottom: none;
+  background: #fff;
+}
+
+.bilet-page .show-phones-btn.open span {
+  border-color: #eb7501;
+  color: #eb7501;
+}
+
+.bilet-page .show-phones-list {
+  display: none;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  right: 0;
+  top: 81px;
+  border: 1px solid #DADDE0;
+  border-radius: 0 0 3px 3px;
+  z-index: 10;
+  padding: 35px 70px 15px;
+}
+
+.bilet-page .show-phones-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1c242b;
+}
+
+.bilet-page .show-phones-list ul li {
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+.bilet-page .show-phones-list ul li:nth-of-type(3n) {margin-right: 0;}
+
+.bilet-page .show-phones-list-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.bilet-page .slide-item, .bilet-page .main-page-slider {height: 481px;}
+
+.bilet-page .slider-inner {
+  padding: 0 5%;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.bilet-page .slide-inner-link {color: #fff;}
+
+.bilet-page .slide-inner-link strong {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  display: block;
+}
+
+.bilet-page .slide-inner-link > span {font-size: 16px;}
+
+.bilet-page .flex-control-nav a:not(.flex-active) {background: #fff;}
+
+.bilet-page .flex-control-nav {margin-top: 420px;}
+
+.bilet-banners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.bilet-banners li {
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+
+.bilet-banners li:nth-of-type(3n) {margin-right: 0;}
+
+.bilet-banners li img {max-width: 100%;}
+
+.bilet-advantages {margin-top: 50px;}
+
+.bilet-advantages-title {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.bilet-advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #dadde0;
+  align-items: flex-start;
+}
+
+.bilet-advantages-list li {
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 70px;
+}
+
+.bilet-advantages-list li:nth-of-type(3n) {margin-right: 0;}
+
+.bilet-advantages-list-title {
+  color: #19acf2;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.bilet-advantages-list-title {
+  display: flex;
+  align-items: center;
+}
+
+.bilet-advantages-list-title img {margin-right: 10px;}
+
+.bilet-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.bilet-info-left, .bilet-info-right {
+  width: 49%;
+  position: relative;
+}
+
+.bilet-info-title {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 40px;
+}
+
+.bilet-info ul > li {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.bilet-info ul > li:last-of-type {margin-bottom: 0;}
+
+.bilet-page .bilet-info-link {
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #b7bcc7;
+}
+
+.bilet-payment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.bilet-payment-left, .bilet-payment-right {/*width: 49%;*/}
+.bilet-payment-right ul {
+  display: flex;
+  align-items: center;
+}
+
+.bilet-payment-right ul li {margin-right: 10px;}
+.bilet-payment-right ul li:last-of-type {margin-right: 0;}
+.bilet-payment-left {font-size: 12px;}
+.bilet-payment-left a {display: block;}
+
+.bilet-payment-info {
+  cursor: pointer;
+  border-bottom: 1px dashed #034a94;
+  color: #034a94;
+  display: inline-block;
+}
+
+.bilet-payment-info-more {display: none;}
+
+.bilet-page + .site-footer a{color: #034a94;}
+
+@media screen and (max-width: 1001px) {
+  .bilet-page .flex-control-nav {padding-left: 0;}
+  .bilet-page .slider-inner {padding: 0;}
+
+  .bilet-banners li {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+
+  .bilet-banners li:nth-of-type(3n) {margin-right: 2%;}
+
+  .bilet-banners li:nth-of-type(2n) {margin-right: 0;}
+
+  .bilet-advantages-list li {
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  .bilet-advantages-list li:nth-of-type(3n) {margin-right: 2%;}
+
+  .bilet-advantages-list li:nth-of-type(2n) {margin-right: 0;}
+
+  .bilet-payment {flex-direction: column;}
+
+  .bilet-payment-left, .bilet-payment-right {width: 100%;}
+
+  .bilet-page .bilet-info-link {
+    position: static;
+    margin-top: 30px;
+    display: inline-block;
+  }
+}
+
+.nemo-flights-form__searchButton{background: #034a94 !important;}
+.nemo-flights-form__searchButton:focus{background: #034a94 !important;}
+.nemo-flights-form__searchButton:hover{background: #475562 !important;}
+.nemo-flights-form__searchButton:click{background: #475562 !important;}
+.nemo-pmu-monthHeader {background: #19acf2 !important;}
+.nemo-common-postFilters__filterList__filter__partSelector__part_main_form,
+.nemo-flights-results__emptyFilterResults__filterList__item_main_form,
+.nemo-flights-results__error__footer .ui-button_main_form,
+.nemo-hotels-results__emptyFilterResults__filterList__item_main_form,
+.nemo-hotels-results__error__footer .ui-button_main_form,
+.nemo-ui-btnCheck__btn_main_form,
+.nemo-ui-button_main_form,
+.nemo-ui-select__toggle_main_form,
+.nemo-ui-stateGroup__label__button_main_form,
+.nemo-ui-systemSelect__button_main_form,
+.ui-dialog-buttonpane .ui-button_main_form {box-shadow: none !important;}
+
+.nemo-common-postFilters__filterList__filter__partSelector__part:disabled,
+.nemo-common-postFilters__filterList__filter__partSelector__part_disabled,
+.nemo-flights-results__emptyFilterResults__filterList__item:disabled,
+.nemo-flights-results__emptyFilterResults__filterList__item_disabled,
+.nemo-flights-results__error__footer .ui-button:disabled,
+.nemo-flights-results__error__footer .ui-button_disabled,
+.nemo-hotels-results__emptyFilterResults__filterList__item:disabled,
+.nemo-hotels-results__emptyFilterResults__filterList__item_disabled,
+.nemo-hotels-results__error__footer .ui-button:disabled,
+.nemo-hotels-results__error__footer .ui-button_disabled,
+.nemo-ui-btnCheck__btn:disabled,
+.nemo-ui-btnCheck__btn_disabled,
+.nemo-ui-button:disabled,
+.nemo-ui-button_disabled,
+.nemo-ui-select__toggle:disabled, .nemo-ui-select__toggle_disabled,
+.nemo-ui-stateGroup__label__button:disabled,
+.nemo-ui-stateGroup__label__button_disabled,
+.nemo-ui-systemSelect__button:disabled,
+.nemo-ui-systemSelect__button_disabled,
+.ui-dialog-buttonpane .ui-button:disabled,
+.ui-dialog-buttonpane .ui-button_disabled {box-shadow: none !important;}
+
+.bilet-page .show-phones-list {
+  left: auto;
+}
+
+.bilet-page .show-phones-list .ul {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1c242b;
+  flex-direction: row;
+}
+
+.bilet-page .show-phones-list .ul .li {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.bilet-page .show-phones-list .ul .li+.li {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .bilet-page .show-phones-list .ul .li+.li {
+    padding-left: 0;
+  }
+}
+
+.bilet-page .show-phones-list-title {
+  white-space: nowrap;
+}
+
+.top-contact {width: 100%;}
+.top-contact-right {float: right;}
+
+.mtt-header-link {display: none;}
+
+.bilet-page .site-logo {
+  width: 160px
+}
+.bilet-page .site-logo img{
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 425px) {
+  .bilet-page .site-logo img {
+    width: 100%;
+  }
+}

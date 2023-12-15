@@ -1,0 +1,124 @@
+
+; /* Start:"a:4:{s:4:"full";s:86:"/local/components/tolmachevo/schedule.list/templates/.default/script.js?15242046822573";s:6:"source";s:71:"/local/components/tolmachevo/schedule.list/templates/.default/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+function openFlightInfo(fi) {
+    var $this = fi,
+        flightItem = $this.closest(".flight-item"),
+        lastActive = flightItem.siblings(".active"),
+        lastActiveHeight = lastActive.innerHeight(),
+        flightItemHeight = flightItem.innerHeight(),
+        flightItemBody = flightItem.find(".fi-body"),
+        flightItemBodyHeight = flightItemBody.innerHeight(),
+        flightItemHeightNew = flightItemHeight + flightItemBodyHeight,
+        fiParent = flightItem.parent(),
+        inMP = !$this.closest(".ipa-content").length || false;
+
+    if(ttMargin != "0px") {
+        var pxIndex = ttMargin.indexOf("px");
+        parseTTMargin = parseInt(ttMargin.substring(1, pxIndex)) * (-1);
+    }
+
+    if(flightItem.hasClass("active")) {
+        flightItem.removeClass("active");
+        flightItem.animate(
+            {
+                height: 39
+            },
+            {
+                duration: 300,
+                step: function(now, fx) {
+                    if(inMP && ttMarginNew) {
+                        fiParent.css("margin-top", parseTTMargin + (ttMarginNew - parseTTMargin) * (1 - fx.pos));
+                    }
+                }
+            }
+        );
+    }
+    else {
+        flightItem.addClass("active");
+        ttMargin = fiParent.css("margin-top");
+        flightItem.animate(
+            {
+                height: flightItemHeightNew
+            },
+            {
+                duration: 300,
+                step: function(now, fx) {
+                    lastActive.height(lastActiveHeight - now + 39);
+                    if(inMP) {
+                        var fiParentHeight = fiParent.closest(".ws").height(),
+                            fiPosBottom = flightItem.position().top + now;
+
+                        if(fiParentHeight < fiPosBottom) {
+                            ttMarginNew = fiParentHeight - fiPosBottom;
+                            fiParent.css("margin-top", ttMarginNew);
+                        }
+                    }
+                }
+            }
+        );
+
+        lastActive.removeClass("active");
+    }
+
+    if (typeof Z != "undefined" && !Z.touch){
+        setTimeout(function() {
+            $(".ws").wScroll();
+        }, 510);
+    }
+}
+
+var ttMargin = "0px",
+    parseTTMargin = 0,
+    ttMarginNew;
+
+$(document).ready(function() {
+    if (typeof Z != "undefined" && !Z.touch){
+        $(".ws").wScroll();
+    }
+
+    $(".wrapper").on("click", ".fi-header, .ib-close", function() {
+        openFlightInfo($(this));
+    });
+
+});
+/* End */
+;
+; /* Start:"a:4:{s:4:"full";s:87:"/local/templates/.default/components/bitrix/news.list/schedule/script.js?15317365311437";s:6:"source";s:72:"/local/templates/.default/components/bitrix/news.list/schedule/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+$(document).ready(function() {
+    $("body").on("click", '.timetable-switcher span:not(.active)', function() {
+        var a = $(this),
+            ts = $(".timetable-switcher"),
+            tsIiiner = $(".tts-inner"),
+            tsHead = $(".tt-head"),
+            sfrFrom = $("#sfr-from"),
+            sfrTo = $("#sfr-to"),
+            sfrToText = sfrTo.text();
+
+        if(!a.hasClass("active") || !a.hasClass("disable")) {
+            ts.find(".active").removeClass("active");
+            a.addClass("active");
+            sfrTo.text(sfrFrom.text());
+            sfrFrom.text(sfrToText);
+            if(a.attr("data-rel") == "arrival") {
+                tsIiiner.find(".col").eq(1).removeClass("unvisible");
+                tsIiiner.addClass("tts-inner-arrival");
+                tsHead.addClass("tts-head-arrival");
+                setTimeout(function() {
+                    tsIiiner.find(".col").eq(0).addClass("unvisible");
+                }, 200)
+            }
+            else {
+                tsIiiner.find(".col").eq(0).removeClass("unvisible");
+                tsIiiner.removeClass("tts-inner-arrival");
+                tsHead.removeClass("tts-head-arrival");
+                //citiesText.removeClass("arrival-text");
+                setTimeout(function() {
+                    tsIiiner.find(".col").eq(1).addClass("unvisible");
+                }, 200)
+            }
+        }
+    });
+});
+/* End */
+;; /* /local/components/tolmachevo/schedule.list/templates/.default/script.js?15242046822573*/
+; /* /local/templates/.default/components/bitrix/news.list/schedule/script.js?15317365311437*/

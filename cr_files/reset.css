@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+html, body, div, applet, 
+object, iframe, h1, h2, h3, h4, 
+h5, h6, 
+address, cite,
+img, ins, kbd, 
+q,  samp, tt, var, dl, dt, dd, 
+ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
+
+ ul {list-style: none outside none;}
+:focus {outline: 0 none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+address{font-style: normal;}
+
+textarea{
+    resize: none;
+    overflow: auto;
+}
+blockquote, figure{margin: 0;}
+
+b{font-weight: 600;}
+.ok{font-weight: bold;font-size: 16px;}
+.cdsROW.wide .cdsLocName a{font-size: 11px !important;}

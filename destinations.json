@@ -1,0 +1,302 @@
+{
+    "data": [
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "ICN",
+            "departureDate": "2023-12-17",
+            "returnDate": "2023-12-23",
+            "price": {
+                "total": "28930.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=ICN&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=ICN&departureDate=2023-12-17&returnDate=2023-12-23&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HND",
+            "destination": "PEK",
+            "departureDate": "2024-01-02",
+            "returnDate": "2024-01-14",
+            "price": {
+                "total": "42590.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=PEK&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=PEK&departureDate=2024-01-02&returnDate=2024-01-14&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "SHA",
+            "departureDate": "2023-12-19",
+            "returnDate": "2023-12-20",
+            "price": {
+                "total": "44720.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=SHA&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=SHA&departureDate=2023-12-19&returnDate=2023-12-20&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "HKG",
+            "departureDate": "2024-01-18",
+            "returnDate": "2024-01-19",
+            "price": {
+                "total": "44970.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=HKG&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=HKG&departureDate=2024-01-18&returnDate=2024-01-19&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "TPE",
+            "departureDate": "2023-12-18",
+            "returnDate": "2023-12-20",
+            "price": {
+                "total": "45150.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=TPE&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=TPE&departureDate=2023-12-18&returnDate=2023-12-20&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "MNL",
+            "departureDate": "2024-01-13",
+            "returnDate": "2024-01-16",
+            "price": {
+                "total": "46370.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=MNL&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=MNL&departureDate=2024-01-13&returnDate=2024-01-16&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "BKK",
+            "departureDate": "2023-12-15",
+            "returnDate": "2023-12-29",
+            "price": {
+                "total": "47280.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=BKK&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=BKK&departureDate=2023-12-15&returnDate=2023-12-29&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "SIN",
+            "departureDate": "2023-12-15",
+            "returnDate": "2023-12-24",
+            "price": {
+                "total": "48470.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=SIN&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=SIN&departureDate=2023-12-15&returnDate=2023-12-24&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HND",
+            "destination": "HAN",
+            "departureDate": "2024-03-10",
+            "returnDate": "2024-03-12",
+            "price": {
+                "total": "49210.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=HAN&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=HAN&departureDate=2024-03-10&returnDate=2024-03-12&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HND",
+            "destination": "DPS",
+            "departureDate": "2024-05-21",
+            "returnDate": "2024-05-24",
+            "price": {
+                "total": "51200.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=DPS&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=DPS&departureDate=2024-05-21&returnDate=2024-05-24&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "CEB",
+            "departureDate": "2024-03-02",
+            "returnDate": "2024-03-05",
+            "price": {
+                "total": "63750.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=CEB&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=CEB&departureDate=2024-03-02&returnDate=2024-03-05&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "CDG",
+            "departureDate": "2024-05-21",
+            "returnDate": "2024-05-24",
+            "price": {
+                "total": "89140.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=CDG&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=CDG&departureDate=2024-05-21&returnDate=2024-05-24&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "NRT",
+            "destination": "LGW",
+            "departureDate": "2024-02-28",
+            "returnDate": "2024-03-06",
+            "price": {
+                "total": "91290.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=LGW&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=LGW&departureDate=2024-02-28&returnDate=2024-03-06&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HND",
+            "destination": "LAX",
+            "departureDate": "2023-12-15",
+            "returnDate": "2023-12-23",
+            "price": {
+                "total": "100190.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=LAX&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=LAX&departureDate=2023-12-15&returnDate=2023-12-23&adults=1&nonStop=false"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HND",
+            "destination": "HNL",
+            "departureDate": "2023-12-17",
+            "returnDate": "2023-12-23",
+            "price": {
+                "total": "101590.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=TYO&destination=HNL&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=TYO&destinationLocationCode=HNL&departureDate=2023-12-17&returnDate=2023-12-23&adults=1&nonStop=false"
+            }
+        }
+    ],
+    "dictionaries": {
+        "currencies": {
+            "JPY": "JAPANESE YEN"
+        },
+        "locations": {
+            "CEB": {
+                "subType": "AIRPORT",
+                "detailedName": "MACTAN INTERNATIONAL"
+            },
+            "LAX": {
+                "subType": "AIRPORT",
+                "detailedName": "LOS ANGELES INTL"
+            },
+            "BKK": {
+                "subType": "AIRPORT",
+                "detailedName": "SUVARNABHUMI INTL"
+            },
+            "HKG": {
+                "subType": "AIRPORT",
+                "detailedName": "INTERNATIONAL"
+            },
+            "DPS": {
+                "subType": "AIRPORT",
+                "detailedName": "NGURAH RAI"
+            },
+            "HNL": {
+                "subType": "AIRPORT",
+                "detailedName": "DANIEL K INOUYE INTL"
+            },
+            "CDG": {
+                "subType": "AIRPORT",
+                "detailedName": "CHARLES DE GAULLE"
+            },
+            "TPE": {
+                "subType": "AIRPORT",
+                "detailedName": "TAIWAN TAOYUAN INTL"
+            },
+            "MNL": {
+                "subType": "AIRPORT",
+                "detailedName": "NINOY AQUINO INTL"
+            },
+            "SHA": {
+                "subType": "AIRPORT",
+                "detailedName": "HONGQIAO INTL"
+            },
+            "NRT": {
+                "subType": "AIRPORT",
+                "detailedName": "NARITA INTL"
+            },
+            "HAN": {
+                "subType": "AIRPORT",
+                "detailedName": "NOI BAI INTL"
+            },
+            "ICN": {
+                "subType": "AIRPORT",
+                "detailedName": "INCHEON INTERNATIONAL"
+            },
+            "PEK": {
+                "subType": "AIRPORT",
+                "detailedName": "CAPITAL INTL"
+            },
+            "SIN": {
+                "subType": "AIRPORT",
+                "detailedName": "CHANGI"
+            },
+            "LGW": {
+                "subType": "AIRPORT",
+                "detailedName": "GATWICK"
+            },
+            "HND": {
+                "subType": "AIRPORT",
+                "detailedName": "TOKYO INTL HANEDA"
+            }
+        }
+    },
+    "meta": {
+        "currency": "JPY",
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=TYO&departureDate=2023-12-15,2024-06-11&oneWay=false&duration=1,15&nonStop=false&viewBy=DESTINATION"
+        },
+        "defaults": {
+            "departureDate": "2023-12-15,2024-06-11",
+            "oneWay": false,
+            "duration": "1,15",
+            "nonStop": false,
+            "viewBy": "DESTINATION"
+        }
+    }
+}

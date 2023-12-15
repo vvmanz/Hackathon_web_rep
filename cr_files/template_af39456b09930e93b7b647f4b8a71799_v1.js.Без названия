@@ -1,0 +1,21 @@
+
+; /* Start:"a:4:{s:4:"full";s:93:"/local/templates/.default/components/bitrix/advertising.banner/banner/script.js?1698741571404";s:6:"source";s:79:"/local/templates/.default/components/bitrix/advertising.banner/banner/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+
+function bannerStatistic($id){
+    if (typeof($id) !== 'undefined') {
+        $.ajax({
+            url: '/local/templates/.default/ajax/ajax.php',
+            type: 'post',
+            dataType: 'json',
+            data: '&BANNER_ID=' + $id,
+            success: function(data){
+                    console.log(data.text);
+                    console.log(data.error);
+            }
+        });
+
+    }
+}
+
+/* End */
+;; /* /local/templates/.default/components/bitrix/advertising.banner/banner/script.js?1698741571404*/
